@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'segoeui';
+  src: url(../../../fonts/Segoe-UI-Font/SEGOEUI.TTF);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+  background-color: #F2F2F2;
+}
+
+#wrapper.active {
+  filter: brightness(0.3);
+  pointer-events: none;
+  user-select: none;
+}
+
+#popup {
+  font-family: 'segoeui';
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  visibility: hidden;
+  opacity: 0;
+  transition: .5s;
+}
+
+#popup.active {
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition: .5s;
+}
+
+#popup .popup-box {
+  text-align: center;
+  padding: 0;
+  margin-top: -40px;
+}
+
+#popup .popup-content {
+  text-align: center;
+  font-weight: bold;
+}
+
+.popup-content p:nth-child(3) {
+  color: #828282;
+}
+
+.popup-content p {
+  margin-bottom: 10px;
+}
+
+.popup-content input {
+  border: none;
+  background-color: #fff;
+  font-family: 'segoeui';
+  font-weight: bold;
+  font-size: 16px;
+  color: #8e8e8e;
+}
+
+.popup-content form input {
+  width: 100%;
+  padding: 10px;
+  background-color: #0061BA;
+  border: none;
+  border-radius: 8px;
+  font-family: 'segoeui';
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 737px) and (max-width: 1023px) {
+  #popup {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #popup {
+    width: 40%;
+    margin: 0 auto;
+  }
+}

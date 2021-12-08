@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "segoeui";
+  src: url("../../../../fonts/Segoe-UI-Font/SEGOEUI.TTF");
+}
+#main {
+  font-family: "segoeui";
+  width: 100%;
+  padding: 30px 15px;
+  background-color: #FFF;
+  font-weight: bold;
+}
+#main .main-1 {
+  /* text-align: center; */
+  margin-bottom: 30px;
+}
+#main .main-1 a {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+#main .main-1 a i {
+  font-size: 18px;
+}
+#main .main-1 a span {
+  margin: -4px 0 0 5px;
+}
+.divide-line {
+  text-align: center;
+  margin: 15px 0;
+}
+#main .main-2 {
+  margin-bottom: 30px;
+  /* background-color: #fff; */
+  /* padding: 15px; */
+  /* border-radius: 8px; */
+  font-size: 13px;
+}
+#main .main-2 .service-introduction p:first-child {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+#main .main-4 {
+  width: 100%;
+}
+#main .main-4 form input {
+  width: 100%;
+  font-family: "segoeui";
+  font-weight: bold;
+  color: #828282;
+  padding: 12px;
+  background-color: #ECECEC;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main-mobile.css.map */

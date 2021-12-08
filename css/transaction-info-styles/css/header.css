@@ -1,0 +1,25 @@
+#header {
+  width: 100%;
+  background-color: #F2F2F2;
+}
+#header .banner-box {
+  width: 100%;
+}
+#header .banner-box .banner-img {
+  width: 100%;
+}
+
+@media screen and (min-width: 737px) and (max-width: 1023px) {
+  #header {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #header {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=header.css.map */

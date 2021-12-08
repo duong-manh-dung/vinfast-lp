@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'segoeui';
+  src: url(../../../fonts/Segoe-UI-Font/SEGOEUI.TTF);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+  background-color: #FFF;
+}

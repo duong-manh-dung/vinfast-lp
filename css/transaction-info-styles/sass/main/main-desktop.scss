@@ -1,0 +1,185 @@
+@mixin font-face($font-name, $path) {
+  @font-face {
+    font-family: quote($font-name);
+    src: url($path);
+  }
+}
+@include font-face(segoeui, "../../../../fonts/Segoe-UI-Font/SEGOEUI.TTF");
+
+#main {
+  font-family: 'segoeui';
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px 0;
+  background-color: #F2F2F2;
+  font-weight: bold;
+
+  .main-1 {
+    text-align: center;
+    margin-bottom: 30px;
+
+    p {
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+
+    p:last-child {
+      color: #828282;
+    }
+  }
+
+  .main-2 {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    // box-shadow: 0 2px 3px 0 rgba(0,0,0,0.72);
+    font-size: 16px;
+
+    .info-1 {
+      border-bottom: 1px solid #F2F2F2;
+
+      div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: top;
+        margin-bottom: 15px;
+
+        p:first-child {
+          color: #828282;
+          margin-right: 5px;
+        }
+
+        div {
+          display: flex;
+          flex-direction: column;
+          text-align: right;
+
+          p {
+            color: #000 !important;
+            margin-right: 0 !important;
+          }
+        }
+      }
+    }
+
+    .info-2 {
+      margin-top: 30px;
+      border-bottom: 1px solid #F2F2F2;
+
+      div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: top;
+        margin-bottom: 15px;
+
+        p:first-child {
+          color: #828282;
+          margin-right: 5px;
+        }
+
+        .free-param {
+          color: #6FCF97;
+        }
+
+        input {
+          width: 100%;
+          background: #F2F2F2;
+          border: 1px solid #E0E0E0;
+          font-family: 'segoeui';
+          font-weight: bold;
+          border-radius: 4px;
+          padding: 10px 15px;
+        }
+      }
+    }
+
+    .info-3 {
+      margin-top: 30px;
+
+      div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+
+        p:first-child {
+          color: #828282;
+          margin-right: 5px;
+        }
+
+        p:last-child {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .main-3 {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    // box-shadow: 0 2px 3px 0 rgba(0,0,0,0.72);
+
+    .info-1 {
+      color: #828282;
+      margin-bottom: 15px;
+    }
+
+    .info-2,
+    .info-3,
+    .info-4 {
+      margin-bottom: 15px;
+      font-size: 16px;
+
+      div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        img {
+          margin-right: 10px;
+        }
+
+        div {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          padding: 15px 0;
+          border-bottom: 1px solid #F2F2F2;
+        }
+      }
+    }
+
+    .info-4 {
+      div {
+        border-bottom: none !important;
+      }
+    }
+  }
+
+  .main-4 {
+    width: 100%;
+
+    form {
+      input {
+        width: 100%;
+        font-family: 'segoeui';
+        font-weight: bold;
+        color: #828282;
+        padding: 12px;
+        background-color: #ECECEC;
+        border-radius: 8px;
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+      }
+    }
+  }
+}

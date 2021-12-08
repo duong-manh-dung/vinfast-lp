@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "segoeui";
+  src: url("../../../fonts/Segoe-UI-Font/SEGOEUI.TTF");
+}
+#footer {
+  width: 100%;
+  font-family: "segoeui";
+  background-color: #fff;
+}
+#footer .top-footer-box {
+  width: 100%;
+}
+#footer .top-footer-box .top-footer-img {
+  width: 100%;
+}
+#footer .footer-menu-box {
+  background-color: #4C6075;
+  margin-top: -10px;
+  padding-top: 30px;
+}
+#footer .footer-menu-box .footer-menu {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  color: #fff;
+}
+#footer .footer-menu-box .footer-menu div a {
+  text-decoration: none;
+  color: #fff;
+}
+#footer .footer-menu-box .footer-menu div a:hover {
+  text-decoration: underline;
+}
+#footer .footer-menu-box .footer-menu div:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#footer .footer-menu-box .footer-menu .middle-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer .footer-menu-box .footer-menu .middle-div div {
+  position: static;
+  width: 1px;
+  height: 24px;
+  left: 104.33px;
+  top: 0;
+  background: linear-gradient(180deg, rgba(189, 189, 189, 0) 0%, #BDBDBD 53.96%, rgba(189, 189, 189, 0) 111.43%);
+  border-radius: 3px;
+}
+#footer .footer-menu-box .footer-menu div:last-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#footer .bct-box {
+  background-color: #4C6075;
+  text-align: center;
+  padding: 40px;
+  margin-top: -1px;
+}
+#footer .bct-box img {
+  width: 50%;
+}
+#footer .business-info-box {
+  background-color: #4C6075;
+  text-align: center;
+  color: #fff;
+  padding: 0 30px 30px;
+  margin-top: -1px;
+}
+#footer .business-info-box h3,
+#footer .business-info-box p {
+  margin-bottom: 16px;
+}
+#footer .business-info-box p:first-child {
+  font-weight: 700;
+}
+#footer .business-info-box p:last-child {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 737px) and (max-width: 1023px) {
+  #footer {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #footer {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

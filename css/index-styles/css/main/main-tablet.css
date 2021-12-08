@@ -1,0 +1,260 @@
+@font-face {
+  font-family: "segoeui";
+  src: url("../../../../fonts/Segoe-UI-Font/SEGOEUI.TTF");
+}
+#main {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "segoeui";
+  text-align: center;
+  padding: 30px 0;
+  background-color: #F2F2F2;
+}
+#main .customer-info-box {
+  width: 100%;
+  padding: 0;
+}
+#main .customer-info-box .title-box {
+  margin-bottom: 20px;
+}
+#main .customer-info-box .title-box p {
+  font-weight: bold;
+  width: 95%;
+  margin: 0 auto;
+}
+#main .customer-info-box .image-car-box {
+  width: 100%;
+}
+#main .customer-info-box .image-car-box .car-img {
+  width: 100%;
+  margin: 0 auto;
+}
+#main .customer-info-box .image-car-box .car-info-box {
+  margin-top: 20px;
+}
+#main .customer-info-box .image-car-box .car-info-box p span:first-child {
+  color: #BDBDBD;
+}
+#main .customer-info-box .image-car-box .car-info-box p span:last-child {
+  font-weight: bold;
+}
+#main .customer-info-box .data-box {
+  border-radius: 8px;
+  background-color: #FAFAFA;
+  width: 100%;
+  margin: 20px auto;
+}
+#main .customer-info-box .data-box .account-balance-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+#main .customer-info-box .data-box .account-balance-box p {
+  font-size: 14px;
+  color: #4F4F4F;
+}
+#main .customer-info-box .data-box .account-balance-box p:last-child {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  margin-left: 10px;
+}
+#main .customer-info-box .capacity-info-box {
+  background: #FFFFFF;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+#main .customer-info-box .capacity-info-box div p:first-child {
+  font-size: 15px;
+  color: #4F4F4F;
+}
+#main .customer-info-box .capacity-info-box div p:last-child {
+  font-size: 16px;
+  font-weight: 700;
+}
+#main .customer-info-box .capacity-info-box .middle-line {
+  position: static;
+  width: 1px;
+  height: 35px;
+  left: 171px;
+  top: 17.5px;
+  background: linear-gradient(180deg, rgba(189, 189, 189, 0) 0%, #BDBDBD 53.96%, rgba(189, 189, 189, 0) 111.43%);
+  border-radius: 3px;
+  margin-right: 5px;
+}
+#main .pack-info-box {
+  width: 100%;
+  margin-top: 40px;
+  background-color: #fff;
+  padding: 0;
+  background-color: #F2F2F2;
+}
+#main .pack-info-box .pack-tab-box {
+  background-color: #0061BA;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  display: flex;
+  flex-direction: row;
+}
+#main .pack-info-box .pack-tab-box .data-tab,
+#main .pack-info-box .pack-tab-box .recharge-tab {
+  cursor: pointer;
+}
+#main .pack-info-box .pack-tab-box .data-tab {
+  width: 40%;
+  padding: 10px 2px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+}
+#main .pack-info-box .pack-tab-box .recharge-tab {
+  width: 60%;
+  padding: 10px 2px;
+  color: #fff;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#main .pack-info-box .pack-tab-box .data-tab.active {
+  background-color: #fff !important;
+  box-shadow: 6px 0 1px -1px rgba(0, 60, 115, 0.5);
+  color: #0061BA;
+  font-weight: bold;
+}
+#main .pack-info-box .pack-tab-box .recharge-tab.active {
+  background-color: #fff !important;
+  box-shadow: -6px 0 1px -1px rgba(0, 60, 115, 0.5);
+  color: #0061BA;
+  font-weight: bold;
+}
+#main .pack-info-box .packs-box {
+  background-color: #fff;
+  padding-top: 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-top: -1px;
+}
+#main .pack-info-box .packs-box .pack-select p {
+  color: #828282;
+  margin-bottom: 16px;
+  display: none;
+}
+#main .pack-info-box .packs-box .pack-select .select-active {
+  display: block;
+}
+#main .pack-info-box .packs-box .packs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#main .pack-info-box .packs-box .packs .packs-info {
+  border: 1px solid #F2F2F2;
+  border-radius: 8px;
+  margin: 15px 10px;
+}
+#main .pack-info-box .packs-box .packs .packs-info p {
+  font-weight: bold;
+  font-size: 12px;
+  color: #828282;
+  border-bottom: 1px solid #F2F2F2;
+  width: 90%;
+  margin: 5px auto;
+  padding-bottom: 5px;
+}
+#main .pack-info-box .packs-box .packs .packs-info p:first-child {
+  color: #0061BA;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 10px auto;
+  width: 90%;
+  border-bottom: 1px solid #F2F2F2;
+  padding-bottom: 10px;
+}
+#main .pack-info-box .packs-box .packs .packs-info p:nth-child(2) {
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+#main .pack-info-box .packs-box .packs .packs-info .detail {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #828282;
+}
+#main .pack-info-box .packs-box .packs .packs-info input {
+  position: static;
+  width: 65%;
+  height: 37px;
+  background: linear-gradient(277.92deg, #FF0000 13.03%, #B10000 105.32%);
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: "segoeui";
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: -20px;
+  font-size: 12px;
+}
+@media screen and (max-width: 329px) {
+  #main .pack-info-box .packs-box .packs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+}
+#main .pack-info-box .packs-box .recharges {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#main .pack-info-box .packs-box .recharges .recharge-info {
+  border: 1px solid #F2F2F2;
+  border-radius: 8px;
+  margin: 15px 5px;
+}
+#main .pack-info-box .packs-box .recharges .recharge-info p:first-child {
+  color: #0061BA;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 10px auto;
+  width: 90%;
+  border-bottom: 1px solid #F2F2F2;
+  padding-bottom: 10px;
+}
+#main .pack-info-box .packs-box .recharges .recharge-info input {
+  position: static;
+  width: 55%;
+  height: 37px;
+  background: linear-gradient(277.92deg, #FF0000 13.03%, #B10000 105.32%);
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: "segoeui";
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: -20px;
+  font-size: 12px;
+}
+#main .pack-info-box .packs-box .box {
+  display: none;
+}
+#main .pack-info-box .packs-box .box.active {
+  display: grid;
+}
+
+/*# sourceMappingURL=main-tablet.css.map */
